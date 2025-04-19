@@ -1,77 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f7f7f7;
-    color: #222;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: #22b435;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  header nav {
-    margin-top: 0.5rem;
-  }
-  
-  header nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-  }
-  
-  header nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    min-height: 100vh;
-    padding: 2rem;
-  }
-  
-  .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .profile-pic {
-    max-width: 200px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    border: 3px solid #004080;
-  }
-  
-  .resume section {
-    margin-bottom: 2rem;
-  }
-  
-  .resume h2 {
-    color: #004080;
-    margin-bottom: 0.5rem;
-  }
-  
-  .resume ul {
-    padding-left: 20px;
-  }
-  
-  footer {
-    background-color: #222;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  margin-top: 0.5rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-pic {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #004080;
+}
+
+.contact-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #007BFF;
+  padding: 0.6rem 1rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+.resume section {
+  margin-bottom: 2rem;
+}
+
+.resume h2 {
+  color: #004080;
+  margin-bottom: 0.5rem;
+}
+
+.resume ul {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
